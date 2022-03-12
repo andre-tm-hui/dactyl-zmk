@@ -1,0 +1,13 @@
+file_format: "1"
+id: dm
+name: Dactyl Manuform
+type: shield
+url: https://github.com/joshreve/dactyl-keyboard
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - dm_left
+  - dm_right

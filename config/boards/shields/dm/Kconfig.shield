@@ -1,0 +1,5 @@
+config SHIELD_DM_LEFT
+	def_bool $(shields_list_contains,dm_left)
+	
+config SHIELD_DM_RIGHT
+	def_bool $(shields_list_contains,dm_right)
